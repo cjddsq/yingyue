@@ -1,0 +1,69 @@
+<view class="indexContainer">
+  <!-- 轮播图区域 -->
+  <swiper class="banner" indicator-dots indicator-color="ivory" indicator-active-color="#d43c33">
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 五个图标区域 -->
+  <view class="navContainer">
+    <view class="navItem">
+      <text class="iconfont icon-meirituijian"></text>
+      <text>每日推荐</text>
+    </view>
+     <view class="navItem">
+      <text class="iconfont icon-playlist"></text>
+      <text>歌单</text>
+    </view>
+     <view class="navItem">
+      <text class="iconfont icon-paihang"></text>
+      <text>排行榜</text>
+    </view>
+     <view class="navItem">
+      <text class="iconfont icon-diantai"></text>
+      <text>电台</text>
+    </view>
+     <view class="navItem">
+      <text class="iconfont icon-zhibobofangshexiangjiguankanxianxing"></text>
+      <text>直播</text>
+    </view>
+  </view>
+  <!-- 推荐歌曲区域 -->
+  <view class="remmendContainer">
+    <view class="header">
+      <text class="title">推荐歌曲</text>
+      <view>
+        <text>为你精心推荐</text>
+        <text class="more">查看更多</text>
+      </view>
+    </view>
+  </view>
+  <!-- 内容区 -->
+  <scroll-view enable-flex class="remmondScroll" scroll-x>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>我喜欢她，她也喜欢我</text>
+    </view>
+     <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>我喜欢她，她也喜欢我</text>
+    </view>
+     <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>我喜欢她，她也喜欢我我喜欢她，她也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>我喜欢她，她也喜欢我</text>
+    </view>
+  </scroll-view>
+</view>
